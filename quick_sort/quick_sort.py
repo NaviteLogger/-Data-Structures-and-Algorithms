@@ -60,10 +60,10 @@ def quickSortFast(arr, low, high):
             quickSortAlternative(arr, low, pi-1)
 
 
-arr = []
-for i in range(1, 10000):
-    arr.append(random.randint(1, 100000))
-print(arr)
-print("\n")
-quickSortFast(arr, 0, len(arr)-1)
-print(arr)
+# arr = []
+# for i in range(1, 10000):
+#     arr.append(random.randint(1, 100000))
+# print(arr)
+# print("\n")
+# quickSortFast(arr, 0, len(arr)-1)
+# print(arr)

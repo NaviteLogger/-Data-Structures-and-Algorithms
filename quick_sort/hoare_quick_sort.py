@@ -29,10 +29,10 @@ def quicksort(arr, low, high):
         quicksort(arr, p+1, high)
 
 
-array = []
-for i in range(1, 10000):
-    array.append(random.randint(1, 100000))
-print(array)
-print("\n")
-quicksort(array, 0, len(array)-1)
-print(array)
+# array = []
+# for i in range(1, 10000):
+#     array.append(random.randint(1, 100000))
+# print(array)
+# print("\n")
+# quicksort(array, 0, len(array)-1)
+# print(array)

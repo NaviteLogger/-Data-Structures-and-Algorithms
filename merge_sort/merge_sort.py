@@ -28,6 +28,6 @@ def mergeSort(arr):
             k += 1
 
 
-array = [35, 22, 41, 4, 8, 81, 15]
-mergeSort(array)
-print(array)
+# array = [35, 22, 41, 4, 8, 81, 15]
+# mergeSort(array)
+# print(array)

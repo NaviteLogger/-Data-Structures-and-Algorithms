@@ -28,16 +28,16 @@ def heapSort(arr):
         heapify(arr, i, 0)
 
 
-arr = []
-print("Enter the number of elements: ")
-n = int(input())
-for i in range(n):
-    arr.append(random.randint(-100, 100))
-n = len(arr)
-start = time.time()
-heapSort(arr)
-end = time.time()
-print("Sorted array is")
-for i in range(n):
-    print("%d" % arr[i], end=" ")
-print(f"Sorting took: {end - start:.5f} seconds")
+# arr = []
+# print("Enter the number of elements: ")
+# n = int(input())
+# for i in range(n):
+#     arr.append(random.randint(-100, 100))
+# n = len(arr)
+# start = time.time()
+# heapSort(arr)
+# end = time.time()
+# print("Sorted array is")
+# for i in range(n):
+#     print("%d" % arr[i], end=" ")
+# print(f"Sorting took: {end - start:.5f} seconds")
